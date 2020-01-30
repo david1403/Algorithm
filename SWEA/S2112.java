@@ -58,7 +58,7 @@ public class S2112 {
             }
             return;
         }
-        if (change > k)
+        if (change > answer)
             return;
         to_change[index] = 2;
         solve(index + 1, change);
